@@ -1,0 +1,9 @@
+.d-flex{
+    background-image: url('../asset/banner1.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.form{
+    border: 1px solid black;
+}

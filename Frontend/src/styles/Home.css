@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    height: 10vh;
+}
+.navbar img{
+    width: 4vw;
+    height: 7vh;
+    margin-bottom: 10px;
+    margin-left: 57px; 
+}
+
+
+
+.navbar h2{
+    color: white;
+    float: right;
+}
+
+.navbar .navigation{
+    float: right;
+    margin-left: 734px;
+}
+.navbar ul{
+    display: flex;
+    margin: 15px 26px;
+    list-style: none;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    padding: 6px 35px;
+    float: right;
+}
+
+.navbar li a:hover{
+    color: red;
+}
+.navbar .items{
+    color: white;
+    display: flex;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar .login{
+    padding: 4px 11px;
+}
+
+.btn-login{
+    margin-left: 828px;
+    width: 8vw;
+    height: 6vh;
+    margin-top: 6px;
+    font-size: medium;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+/* Banner */
+.wrapper .banner{
+    background-image: url('../asset/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    
+}
+ .banner-title{
+    color: rgb(23, 23, 23);
+    padding: 50px;
+    text-align: center;
+    font-size: 50px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.banner-caption{
+    color: black;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    animation: slideFromLeft 0.5s ease-in-out forwards;
+}
+
+.banner-caption:nth-child(2) {
+    animation-delay: 1s; /* Delay the second caption by 1 second */
+}
+
+.banner-caption:nth-child(3) {
+    animation-delay: 2s; /* Delay the third caption by 2 seconds */
+}
+
+@keyframes slideFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}   

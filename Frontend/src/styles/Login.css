@@ -1,0 +1,80 @@
+.banner-1{
+    background-image: url("../asset/banner1.jpg");
+    background-repeat: no-repeat;
+ 
+}
+
+.form{
+    border: 1px solid black;
+}
+
+
+
+.navbar-login{
+    background-color: black;
+    display: flex;
+    height: 10vh;
+}
+.navbar-login img{
+    width: 4vw;
+    height: 7vh;
+    margin-left: 57px; 
+    margin-top: 10px;
+}
+
+.name{
+   color: white;
+   margin-top: 24px;
+   margin-left: 10px;
+}
+
+
+.navbar-login h2{
+    color: white;
+    float: right;
+}
+
+.navbar-login .navigation-login{
+    float: right;
+    margin-left: 734px;
+}
+.navbar-login ul{
+    display: flex;
+    margin: 15px 26px;
+    list-style: none;
+
+}
+.navbar-login ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-login li{
+    padding: 6px 35px;
+    float: right;
+}
+
+.navbar-login li a:hover{
+    color: red;
+}
+.navbar-login .items{
+    color: white;
+    display: flex;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-login .login{
+    padding: 4px 11px;
+}
+
+.btn-login{
+    margin-left: 828px;
+    width: 8vw;
+    height: 6vh;
+    margin-top: 6px;
+    font-size: medium;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
